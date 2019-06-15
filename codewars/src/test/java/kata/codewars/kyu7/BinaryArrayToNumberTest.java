@@ -17,10 +17,7 @@ public class BinaryArrayToNumberTest {
         assertEquals(9, BinaryArrayToNumber.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1, 0, 0, 1))));
     }
 
-    /**
-     * Test Cases
-     * @throws Exception
-     */
+
     @org.junit.Test
     public void convertBinaryArrayToInt() throws Exception {
         List<List<Integer>> tests = new ArrayList<>();
